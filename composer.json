@@ -1,0 +1,22 @@
+{
+    "name": "hoanghiep/laravel-google",
+    "description": "google in laravel",
+    "minimum-stability": "stable",
+     "license": "MIT",
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "HoangHiep",
+            "email": "thandonguocmo2020@gmail.com"
+        }
+    ],
+    "autoload": {
+      
+        "psr-4": {
+      
+            "Hoanghiep\\Googleapi\\":"src/"
+        }
+    }
+}
